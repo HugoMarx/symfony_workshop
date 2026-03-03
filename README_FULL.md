@@ -30,7 +30,7 @@ Mettre en place le projet et modéliser le domaine métier.
 * [ ] Configurer les relations entre entités
 * [ ] Générer une migration
 * [ ] Exécuter la migration
-
+* [ ] Créer des fixtures avec FakerPhp
 ---
 
 ## 🧠 Concepts abordés
