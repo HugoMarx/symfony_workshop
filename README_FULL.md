@@ -20,6 +20,7 @@ Mettre en place le projet et modéliser le domaine métier.
 
 * [ ] Créer un nouveau projet Symfony 7
 * [ ] Configurer la base de données
+* [ ] Installer FixturesBundle et Fakerphp via Composer
 * [ ] Vérifier le Web Profiler
 * [ ] Installer Doctrine
 * [ ] Créer les entités :

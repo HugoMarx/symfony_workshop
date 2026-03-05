@@ -21,6 +21,12 @@ class TicketPriority
     #[ORM\OneToMany(targetEntity: Ticket::class, mappedBy: 'priority')]
     private Collection $ticketsWithPriority;
 
+    #[ORM\Column(length: 255)]
+    private ?string $name = null;
+
+    #[ORM\Column(length: 255)]
+    private ?string $label = null;
+
     public function __construct()
     {
         $this->ticketsWithPriority = new ArrayCollection();
@@ -57,6 +63,30 @@ class TicketPriority
                 $ticketsWithPriority->setPriority(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): static
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    public function getLabel(): ?string
+    {
+        return $this->label;
+    }
+
+    public function setLabel(string $label): static
+    {
+        $this->label = $label;
 
         return $this;
     }

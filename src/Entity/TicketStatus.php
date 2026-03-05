@@ -24,6 +24,9 @@ class TicketStatus
     #[ORM\OneToMany(targetEntity: Ticket::class, mappedBy: 'status')]
     private Collection $ticketsWithStatus;
 
+    #[ORM\Column(length: 255)]
+    private ?string $label = null;
+
     public function __construct()
     {
         $this->ticketsWithStatus = new ArrayCollection();
@@ -72,6 +75,18 @@ class TicketStatus
                 $ticketsWithStatus->setStatus(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getLabel(): ?string
+    {
+        return $this->label;
+    }
+
+    public function setLabel(string $label): static
+    {
+        $this->label = $label;
 
         return $this;
     }
