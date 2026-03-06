@@ -1,4 +1,4 @@
-# Formation Symfony : ROADMAP
+y# Formation Symfony : ROADMAP
 
 Objectif : construire une application de ticketing fonctionnelle tout en comprenant l’architecture moderne de Symfony.
 
@@ -18,20 +18,20 @@ Mettre en place le projet et modéliser le domaine métier.
 
 ## ✅ TODO
 
-* [ ] Créer un nouveau projet Symfony 7
-* [ ] Configurer la base de données
-* [ ] Installer FixturesBundle et Fakerphp via Composer
-* [ ] Vérifier le Web Profiler
-* [ ] Installer Doctrine
-* [ ] Créer les entités :
+* [x] Créer un nouveau projet Symfony 7
+* [x] Configurer la base de données
+* [x] Installer FixturesBundle et Fakerphp via Composer
+* [x] Vérifier le Web Profiler
+* [x] Installer Doctrine
+* [x] Créer les entités :
 
-  * [ ] `User`
-  * [ ] `Ticket`
-  * [ ] `TicketStatus`
-* [ ] Configurer les relations entre entités
-* [ ] Générer une migration
-* [ ] Exécuter la migration
-* [ ] Créer des fixtures avec FakerPhp
+  * [x] `User`
+  * [x] `Ticket`
+  * [x] `TicketStatus`
+* [x] Configurer les relations entre entités
+* [x] Générer une migration
+* [x] Exécuter la migration
+* [x] Créer des fixtures avec FakerPhp
 ---
 
 ## 🧠 Concepts abordés
@@ -67,19 +67,19 @@ Créer une fonctionnalité complète : affichage, création et modification d’
 
 ## ✅ TODO
 
-* [ ] Créer un `TicketController`
-* [ ] Mettre en place les routes :
+* [x] Créer un `TicketController`
+* [x] Mettre en place les routes :
 
-  * [ ] index
-  * [ ] show
-  * [ ] create
-  * [ ] edit
-* [ ] Créer un `FormType`
-* [ ] Implémenter la création d’un ticket
-* [ ] Implémenter la modification
-* [ ] Implémenter la suppression
-* [ ] Créer les templates Twig associés
-* [ ] Ajouter des redirections après soumission
+  * [x] index
+  * [x] show
+  * [x] create
+  * [x] edit
+* [x]  Créer un `FormType`
+* [x] Implémenter la création d’un ticket
+* [x] Implémenter la modification
+* [x] Implémenter la suppression
+* [x] Créer les templates Twig associés
+* [x] Ajouter des redirections après soumission
 
 ---
 

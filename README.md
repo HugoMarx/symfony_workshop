@@ -101,10 +101,6 @@ Sécuriser l’application.
 * isGranted()
 * CSRF
 
-### 🚀 Challenge
-
-Un utilisateur ne peut modifier que ses propres tickets.
-Un admin peut tout modifier.
 
 ---
 
@@ -155,7 +151,10 @@ Introduire des outils avancés de Symfony.
 * AssetMapper
 * Tests unitaires
 
-### 🚀 Challenge
+### 🚀 Challenges
 
-Déclencher un événement à la fermeture d’un ticket
+- Un utilisateur ne peut modifier que ses propres tickets.
+Un admin peut tout modifier.
+
+- Déclencher un événement à la fermeture d’un ticket
 et tester la logique associée.
